@@ -1,1 +1,27 @@
 
+##################empirical data############
+#all data used in this paper are taken from {Szappanos,2011}
+
+for both data files we exclude essential genes and genes associated with blocked reactions  
+and then calculated epistasis
+
+combined_data_highconfidence.txt  is used for Epistasis analysis 
+
+sgadata_metabolic_array_Deya.txt is used for is used for synthetic lethal analysis 
+
+
+##################for both models##################
+ - growth medium was set up to mimic the one used in the experiment 
+ - 5 genes were deleted to mimic the strain background used in the experiments.
+
+#Rdata files with the iMM904_NAD_corrected  model
+#Rdata files with the yeast7.6  model
+
+##################kcat+molecular weights##################
+
+##################Results[Raw data]##################
+
+	Epistasis.Rdata:Rdata file with a Epistasis result at different constraint based method
+dfs_neg1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for negative interaction at different constraint based method 
+ 
+	dfs_pos1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for positive interaction at different constraint based method 
