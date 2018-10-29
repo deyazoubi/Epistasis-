@@ -19,9 +19,14 @@ sgadata_metabolic_array_Deya.txt is used for is used for synthetic lethal analys
 
 ##################kcat+molecular weights##################
 
+experimental kcat values for 535 enzymes and molecular weights are taken from {Desouki, 2016}
+for the remaining enzymes, we use the median of the 535 known values
+for more detailed informations please see CRAN Package sybilccFBA
+https://cran.r-project.org/web/packages/sybilccFBA/index.html
+
 ##################Results[Raw data]##################
 
-	Epistasis.Rdata:Rdata file with a Epistasis result at different constraint based method
+Epistasis.Rdata:Rdata file with a Epistasis result at different constraint based method
 dfs_neg1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for negative interaction at different constraint based method 
  
-	dfs_pos1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for positive interaction at different constraint based method 
+dfs_pos1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for positive interaction at different constraint based method 
