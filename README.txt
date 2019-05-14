@@ -10,11 +10,10 @@ combined_data_highconfidence.txt  is used for Epistasis analysis
 sgadata_metabolic_array_Deya.txt is used for is used for synthetic lethal analysis 
 
 
-##################for both models##################
+################## model##################
  - growth medium was set up to mimic the one used in the experiment 
  - 5 genes were deleted to mimic the strain background used in the experiments.
 
-#Rdata files with the iMM904_NAD_corrected  model
 #Rdata files with the yeast7.6  model
 
 ##################kcat+molecular weights##################
