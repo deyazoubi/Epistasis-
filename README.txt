@@ -31,3 +31,5 @@ dfs_neg1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN
 dfs_pos1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for positive interaction at different constraint based method 
 ##################synthetic lethal Results[Raw data]##################
 SL_CBM.Rdata:Rdata file with a synthetic lethal result at different constraint based method
+the results contain
+ORF1    ORF2  WxWy(product of single mutant fitness)   Wxy(double mutant fitness)   Σ(Epistasis score simulation) EP.exp(Epistasis score experiment ) DMF.exp(double mutant fitness experiment) 
