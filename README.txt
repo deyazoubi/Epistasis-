@@ -29,3 +29,5 @@ Epistasis.Rdata:Rdata file with a Epistasis result at different constraint based
 dfs_neg1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for negative interaction at different constraint based method 
  
 dfs_pos1.Rdata:Rdata file with a recall, FPrate, precision, cutoffs, TP ,FP,  FN, TN,  result for positive interaction at different constraint based method 
+##################synthetic lethal Results[Raw data]##################
+SL_CBM.Rdata:Rdata file with a synthetic lethal result at different constraint based method
